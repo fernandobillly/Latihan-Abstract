@@ -1,0 +1,23 @@
+package latihan;
+
+public class Fernando extends Mahasiswa {
+
+    @Override
+    protected void kuliah() {
+        System.out.println("Mahasiswa yang terdaftar dan melakukan study");
+    }
+
+    @Override
+    protected void lulus() {
+        System.out.println("Mahasiswa yang telah berhasil menyelesaikan semua SKS");
+        System.out.println("minimal 3 setengah tahun atau Maksimal 7 tahun");
+                
+    }
+
+    @Override
+    protected void tidaklulus() {
+        System.out.println("Mahasiswa yang tidak menyelesaikan semua paket SKS");
+        System.out.println("Maksimal selama 7 Tahun");
+
+    }
+}
