@@ -1,0 +1,16 @@
+package latihan;
+
+public class MainProgram {
+
+    public static void main(String[] ars) {
+        Fernando Mhs = new Fernando();
+        System.out.println("Kuliah");
+        Mhs.kuliah();
+        System.out.println("");
+        System.out.println("Lulus");
+        Mhs.lulus();
+        System.out.println("");
+        System.out.println("Tidak Lulus");
+        Mhs.tidaklulus();
+    }
+}
